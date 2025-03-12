@@ -1,36 +1,44 @@
-# Twitter Sentiment Analysis
-Overview-
-This project is a Twitter Sentiment Analysis application that uses Machine Learning to classify tweets into different sentiment categories: Positive, Negative, Neutral, or Irrelevant. It is built with Python, Streamlit, and Scikit-learn.
+#  Twitter Sentiment Analysis
 
-Features-
-Preprocesses tweets by removing unwanted characters.
-Uses Bag-of-Words (BoW) with CountVectorizer for text representation.
-Implements Logistic Regression for sentiment classification.
-Interactive UI with Streamlit.
-Displays model accuracy on validation data.
+This project is a **Twitter Sentiment Analysis** application that uses **Machine Learning** to classify tweets into different sentiment categories: **Positive, Negative, Neutral, or Irrelevant**. It is built using **Python, Streamlit, and Scikit-learn**.
 
-Tech Stack-
-Python
-Streamlit (for UI)
-Scikit-learn (for ML model)
-NLTK (for text preprocessing)
-Pandas (for handling datasets)
+---
 
-Dataset-
+## Features
 
-The dataset consists of:
+-  **Preprocesses tweets** by removing unwanted characters.  
+- **Uses Bag-of-Words (BoW)** with CountVectorizer for text representation.  
+-  **Implements Logistic Regression** for sentiment classification.  
+-  **Interactive UI** built with Streamlit.  
+  **Displays model accuracy** on validation data.  
 
-twitter_training.csv (Training data)
+---
 
-twitter_validation.csv (Validation data)
+##  Tech Stack
 
- How to Use-
+- **Python**   
+- **Streamlit** (for UI) 
+- **Scikit-learn** (for ML model)   
+- **NLTK** (for text preprocessing)  
+- **Pandas** (for handling datasets)  
 
-Enter a tweet in the text box.
+---
 
-Click the Analyze Sentiment button.
+##  Dataset
 
-The model will predict and display the sentiment.
+The dataset consists of:  
 
-View the model’s accuracy on the validation dataset.
+- **`twitter_training.csv`** (Training data)  
+- **`twitter_validation.csv`** (Validation data)  
+
+---
+
+##  How to Use
+
+1️⃣ **Enter a tweet** in the text box.  
+2️⃣ **Click the "Analyze Sentiment"** button.  
+3️⃣ The model will **predict and display the sentiment**.  
+4️⃣ **View the model’s accuracy** on the validation dataset.  
+
+---
 
