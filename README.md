@@ -42,3 +42,4 @@ The dataset consists of:
 
 ---
 
+Live demo-https://twitter-sentiment-analysis-dfzxlmut8pxcyj2zamtfpj.streamlit.app/
